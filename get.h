@@ -1,3 +1,4 @@
-ColorPair GetColorFromPairNumber(intpairNumber);
-intGetPairNumberFromColor(constColorPair* colorPair);
-voidColorPairToString(constColorPair* colorPair, char* buffer);
+#include "common.h"
+ColorPair GetColorFromPairNumber(int pairNumber);
+int GetPairNumberFromColor(const ColorPair* colorPair);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
