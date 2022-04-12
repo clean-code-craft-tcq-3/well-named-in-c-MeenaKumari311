@@ -9,12 +9,12 @@ ColorPair GetColorFromPairNumber(intpairNumber) {
         (enumMinorColor)(zeroBasedPairNumber % numberOfMinorColors);
     returncolorPair;
 }
-intGetPairNumberFromColor(constColorPair* colorPair) {
+int GetPairNumberFromColor(constColorPair* colorPair) {
     returncolorPair->majorColor* numberOfMinorColors +
             colorPair->minorColor+ 1;
 }
 
-voidColorPairToString(constColorPair* colorPair, char* buffer) {
+void ColorPairToString(constColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s%s",
         MajorColorNames[colorPair->majorColor],
         MinorColorNames[colorPair->minorColor]);
