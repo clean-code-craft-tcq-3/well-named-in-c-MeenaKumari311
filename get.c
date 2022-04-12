@@ -7,14 +7,14 @@ ColorPair GetColorFromPairNumber(int pairNumber) {
         (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
     colorPair.minorColor=
         (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
-    returncolorPair;
+    return colorPair;
 }
-int GetPairNumberFromColor(constColorPair* colorPair) {
+int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor* numberOfMinorColors +
             colorPair->minorColor+ 1;
 }
 
-void ColorPairToString(constColorPair* colorPair, char* buffer) {
+void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s%s",
         Major ColorNames[colorPair->majorColor],
         Minor ColorNames[colorPair->minorColor]);
