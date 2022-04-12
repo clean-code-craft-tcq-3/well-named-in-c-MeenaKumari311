@@ -1,4 +1,5 @@
 #include "get.h"
+#include <stdio.h>
 #include <assert.h>
 #include "common.h"
 void testNumberToPair(int pairNumber,
