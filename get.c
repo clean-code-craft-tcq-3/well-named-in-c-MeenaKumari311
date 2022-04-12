@@ -1,21 +1,21 @@
-#includee "get.h"
+#include "get.h"
 #include "common.h"
-ColorPair GetColorFromPairNumber(intpairNumber) {
+ColorPair GetColorFromPairNumber(int pairNumber) {
     ColorPair colorPair;
-    intzeroBasedPairNumber = pairNumber - 1;
+    int zeroBasedPairNumber = pairNumber - 1;
     colorPair.majorColor= 
-        (enumMajorColor)(zeroBasedPairNumber / numberOfMinorColors);
+        (enum MajorColor)(zeroBasedPairNumber / numberOfMinorColors);
     colorPair.minorColor=
-        (enumMinorColor)(zeroBasedPairNumber % numberOfMinorColors);
+        (enum MinorColor)(zeroBasedPairNumber % numberOfMinorColors);
     returncolorPair;
 }
 int GetPairNumberFromColor(constColorPair* colorPair) {
-    returncolorPair->majorColor* numberOfMinorColors +
+    return colorPair->majorColor* numberOfMinorColors +
             colorPair->minorColor+ 1;
 }
 
 void ColorPairToString(constColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s%s",
-        MajorColorNames[colorPair->majorColor],
-        MinorColorNames[colorPair->minorColor]);
+        Major ColorNames[colorPair->majorColor],
+        Minor ColorNames[colorPair->minorColor]);
 }
