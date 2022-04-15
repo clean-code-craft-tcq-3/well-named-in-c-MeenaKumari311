@@ -1,6 +1,6 @@
 #include "test.h"
 #include "common.h"
-intmain() {
+int main() {
     testNumberToPair(4, WHITE, BROWN);
     testNumberToPair(5, WHITE, SLATE);
     testPairToNumber(BLACK, ORANGE, 12);
