@@ -1,2 +1,2 @@
 
-void ColorPairToString(const ColorPair*, char*); 
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
