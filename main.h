@@ -1,6 +1,6 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
-extern enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+static extern enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 extern enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 typedef struct 
 {
