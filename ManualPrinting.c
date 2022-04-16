@@ -3,11 +3,11 @@
 
 void PrintWiringManual(void)
 {
-  int PairNo;
-  for(PairNo=0;PairNo<25;PairNo++)
+  int pairNumber;
+  for(pairNumber=0;pairNumber<25;pairNumber++)
   {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
-    printf("PairNo : %s", PairNo);
+    printf("PairNo : %s", pairNumber);
     printf("ColorPair : %s\n", colorPair);
   }
 }
