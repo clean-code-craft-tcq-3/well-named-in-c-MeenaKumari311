@@ -1,7 +1,7 @@
 #ifndef MAIN_H_INCLUDED
 #define MAIN_H_INCLUDED
-enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
-enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+const enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+const enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
 typedef struct 
 {
     enum MajorColor majorColor;
