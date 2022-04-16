@@ -16,4 +16,5 @@ typedef struct
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
 ColorPair GetColorFromPairNumber(int pairNumber);
+int GetPairNumberFromColor(const ColorPair* colorPair);
 #endif
