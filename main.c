@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <assert.h>
 #include "math.h"
-
 void ColorPairToString(const ColorPair* colorPair, char* buffer) {
     sprintf(buffer, "%s %s",
         MajorColorNames[colorPair->majorColor],
@@ -31,10 +30,7 @@ void testNumberToPair(int pairNumber,
     assert(colorPair.majorColor == expectedMajor);
     assert(colorPair.minorColor == expectedMinor);
 }
-void testPairToNumber(
-    enum MajorColor major,
-    enum MinorColor minor,
-    int expectedPairNumber)
+void testPairToNumber(enum MajorColor major,enum MinorColor minor,int expectedPairNumber)
 {
     ColorPair colorPair;
     colorPair.majorColor = major;
