@@ -4,7 +4,7 @@
 void PrintWiringManual(void)
 {
   int pairNumber;
-  for(pairNumber=0;pairNumber<10;pairNumber++)
+  for(pairNumber=0;pairNumber<1;pairNumber++)
   {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     printf("\n PairNo : %d \t", pairNumber+1);
