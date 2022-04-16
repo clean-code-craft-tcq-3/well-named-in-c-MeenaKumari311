@@ -2,7 +2,7 @@
 #include <assert.h>
 #include "main.h"
 #include "get.h"
-const int MAX_COLORPAIR_NAME_CHARS = 16;
+
 
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
