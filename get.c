@@ -1,4 +1,5 @@
 #include "get.h"
+#include "main.h"
 #include <stdio.h>
 void ColorPairToString(const ColorPair* colorPair, char* buffer) 
 {
