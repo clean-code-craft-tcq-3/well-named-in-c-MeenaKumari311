@@ -1,9 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "math.h"
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
+
 int numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 const char* MinorColorNames[] = {
