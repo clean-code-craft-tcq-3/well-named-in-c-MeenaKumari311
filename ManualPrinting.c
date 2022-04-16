@@ -4,11 +4,11 @@
 void PrintWiringManual(void)
 {
   int pairNumber;
-  for(pairNumber=0;pairNumber<1;pairNumber++)
+  for(pairNumber=1;pairNumber<26;pairNumber++)
   {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
-    printf("\n PairNo : %d \t", pairNumber+1);
+    printf("\n PairNo : %d \t", pairNumber);
     printf("%s", MajorColorNames[colorPair.majorColor]);
-    //printf("%s", MinorColorNames[colorPair.minorColor]);
+    printf("%s", MinorColorNames[colorPair.minorColor]);
   }
 }
