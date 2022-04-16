@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "main.h"
+extern enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
 ColorPair GetColorFromPairNumber(int pairNumber) 
 {
     ColorPair colorPair;
