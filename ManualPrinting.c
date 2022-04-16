@@ -8,7 +8,7 @@ void PrintWiringManual(void)
   {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     printf("\n PairNo : %d", pairNumber);
-    //printf("%s", MajorColorNames[colorPair.majorColor]);
-    printf("%s", MinorColorNames[colorPair.minorColor]);
+    printf("%s", MajorColorNames[colorPair.majorColor]);
+    //printf("%s", MinorColorNames[colorPair.minorColor]);
   }
 }
