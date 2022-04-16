@@ -11,6 +11,6 @@ void PrintWiringManual(void)
     //ColorPairToString(&colorPair, colorPairNames);
     //printf("Got pair %s\n", colorPairNames);
     printf("PairNo : %d", pairNumber);
-    printf("%s,%s", MajorColorNames[colorPair.majorColor], MinorColorNames[colorPair.minorColor]);
+    printf("%s", MajorColorNames[colorPair.majorColor]);
   }
 }
