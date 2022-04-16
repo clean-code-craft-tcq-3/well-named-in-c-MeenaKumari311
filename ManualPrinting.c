@@ -10,6 +10,5 @@ void PrintWiringManual(void)
     printf("\nPairNumber: %d\t", PairNumber);
     printf("MajorColor: %s\t", MajorColorNames[colorPair.majorColor]);
     printf("MinorColor: %s", MinorColorNames[colorPair.minorColor]);
-    ]
   }
 }
